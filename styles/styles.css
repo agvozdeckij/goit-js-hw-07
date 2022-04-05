@@ -1,0 +1,17 @@
+#gallery{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0;
+}
+.gallery-list-item-image{
+    display: block;
+}
+.gallery-list-item{
+    margin-right: 15px;
+}
+.gallery-list-item:first-child{
+    margin-left: 15px;
+}
