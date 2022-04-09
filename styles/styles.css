@@ -9,9 +9,12 @@
 .gallery-list-item-image{
     display: block;
 }
-.gallery-list-item{
-    margin-right: 15px;
-}
-.gallery-list-item:first-child{
-    margin-left: 15px;
+
+#gallery li img { 
+  max-width: 50%;
+  width: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
 }
